@@ -3,6 +3,8 @@
 
 <head>
     <title>Chatbot</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
     <link rel="icon" type="image/png" href="robot.png">
 
     <style>
@@ -81,6 +83,37 @@
 
             
         }
+        @media (max-width: 600px) {
+    .app-container {
+        max-width: 100%;
+        padding: 10px;
+    }
+
+    .chat-message-text {
+        max-width: 80%;
+        font-size: 14px;
+        padding: 12px 15px;
+    }
+
+    .chat-input {
+        font-size: 14px;
+        padding: 10px;
+    }
+
+    .send-button {
+        font-size: 14px;
+        padding: 10px 15px;
+    }
+
+    .chat-message-profile {
+        width: 35px;
+    }
+
+    .chat-input-container {
+        margin-bottom: 40px;
+    }
+}
+
     </style>
 </head>
 
@@ -227,4 +260,5 @@
 </body>
 
 </html>
+
 
